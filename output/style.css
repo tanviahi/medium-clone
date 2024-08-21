@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid;
+  font-family: "Work Sans", sans-serif;
+  align-items: center;
+}
+header .logo {
+  height: 30px;
+}
+
+@media screen and (max-width: 720px) {
+  .hidden {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

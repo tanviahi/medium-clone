@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+// common style
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// button
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+// header
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid;
+    font-family: "Work Sans", sans-serif;
+    align-items: center;
+
+    .logo {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .hidden {
+        display: none;
+    }
+}
