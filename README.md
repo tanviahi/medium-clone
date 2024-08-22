@@ -9,3 +9,7 @@ and then link css file -->
 sass style.scss output/style.css  --watch
 
 lsb_release -a
+
+<!-- for commit -->
+git add . 
+commit -m "section done"

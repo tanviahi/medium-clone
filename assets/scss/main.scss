@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -58,14 +58,20 @@ header {
         height: 30px;
     }
 }
-
+@media screen and (max-width: 400px){
+    .weird-hidden{
+        display: none;
+    }
+}
 //MARK: main
 main {
-    background-color: orangered;
-    min-height: 80vh;
-    // min-height: 80vh;
-    .container{
-        // min-height: 80vh;
+    background-image: url(../images/background.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 70vw;
+min-height: 80vh;
+    .container {
+        min-height: 80vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -74,26 +80,52 @@ main {
     }
 
     h1 {
-       font:{
-        family: "gt-super", serif;
-        size: 110px;
-        weight: 400; 
+        font: {
+            family: "gt-super", serif;
+            size: calc(10vw + 10px);
+            weight: 400;
         }
-        
+
         letter-spacing: -3px;
         line-height: 0.9;
     }
-    p{
+
+    p {
         font-size: 22px;
     }
-    .btn{
+
+    .btn {
         font-size: 22px;
     }
 }
-@media screen and (max-width: 900px){
-    main{
-        .btn{
+//MARK:footer
+footer{
+    border-top: 1px solid;
+}
+footer {
+    padding: 20px;
+    nav {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        .btn {
             background-color: #1a8917;
+        }
+    }
+    footer {
+        background-color: black;
+        color: white;
+    
+        nav{
+            justify-content: start;
+        }
+        .lg-hidden{
+            display: none;
         }
     }
 }
