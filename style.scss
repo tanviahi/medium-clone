@@ -23,6 +23,7 @@ a {
 }
 nav{
     margin-right: 27px;
+    gap: 33px;
 }
 // header
 header {
@@ -40,7 +41,9 @@ header {
         height: 30px;
     }
 }
+
 // for med
+section{
 .medium{
     display: flex;
   justify-content: end;
@@ -50,17 +53,52 @@ header {
 border-bottom: 1px solid;
 padding-right: 3px;
  }
+.large{
+    display: flex;
+    justify-content: left;
+    font-size: 110px;
+    font-family: "Playfair Display", serif;
+    padding-top: 70px;
+    color: rgb(58, 58, 53);
+    padding-left: 50px;
+}
+}
+p{
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    padding-top: 27px;
+    color: rgb(58, 58, 53);
+    padding-left: 50px; 
+}
+.get{
+    display: flex;
+    justify-content: left;
+    display: inline;
+    font-family: "Playfair Display", serif;
+    // padding-top: 31px;
+    // padding-left: 50px; 
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 22px;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
 
 @media screen and (max-width: 720px) {
     .hidden {
         display: none;
     }
 }
+
 footer{
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 15px;
+    padding: 25px 15px; 
     color: gray;
     font-weight: 500;
     font-size: small;
