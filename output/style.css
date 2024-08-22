@@ -17,25 +17,47 @@ a {
   background-color: black;
   color: white;
   padding: 8px 16px;
-  border-radius: 16px;
+  border-radius: 22px;
+}
+
+nav {
+  margin-right: 27px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 25px;
   border-bottom: 1px solid;
-  font-family: "Work Sans", sans-serif;
+  font-family: sans-serif;
+  gap: 20px;
+  font-size: 15px;
   align-items: center;
 }
 header .logo {
   height: 30px;
 }
 
+.medium {
+  display: flex;
+  justify-content: end;
+  border-bottom: 1px solid;
+  padding-right: 3px;
+}
+
 @media screen and (max-width: 720px) {
   .hidden {
     display: none;
   }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  color: gray;
+  font-weight: 500;
+  font-size: small;
 }
 
 /*# sourceMappingURL=style.css.map */
