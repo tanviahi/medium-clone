@@ -1,0 +1,109 @@
+@font-face{
+    font-family: "gt-super";
+    src: url(../fonts/gt-super-400-normal.woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+// common style
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// button
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 22px;
+}
+nav{
+    margin-right: 27px;
+    gap: 33px;
+}
+// header
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 1px solid;
+    font-family: sans-serif;
+    gap: 20px;
+    font-size:15px ;
+    align-items: center;
+    
+
+    .logo {
+        height: 30px;
+    }
+}
+
+// for med
+section{
+.medium{
+    display: flex;
+  justify-content: end;
+//   background-color: aqua;
+// align-content: end;
+// float: right;
+border-bottom: 1px solid;
+padding-right: 3px;
+ }
+.large{
+    display: flex;
+    justify-content: left;
+    font-size: 110px;
+    font-family: "Playfair Display", serif;
+    padding-top: 70px;
+    color: rgb(58, 58, 53);
+    padding-left: 50px;
+}
+}
+p{
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    padding-top: 22px;
+    color: rgb(58, 58, 53);
+    padding-left: 50px; 
+}
+.get{
+    display: flex;
+    justify-content: left;
+    display: inline;
+    font-family: "Playfair Display", serif;
+    // padding-top: 31px;
+    // padding-left: 50px; 
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 22px;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .hidden {
+        display: none;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 15px; 
+    color: gray;
+    font-weight: 500;
+    font-size: small;
+}
